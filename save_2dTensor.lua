@@ -1,4 +1,4 @@
-function save_2dtensor(tensor, filename)
+function save_2dTensor(tensor, filename)
   local out = assert(io.open(filename, 'w'))
   splitter = ","
   for i=1, tensor:size(1) do
